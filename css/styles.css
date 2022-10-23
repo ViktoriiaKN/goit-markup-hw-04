@@ -193,6 +193,7 @@ color:var(--active-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(../images/Hero-background\(1\).jpg);
 }
 
 .hero-title {
@@ -304,6 +305,7 @@ margin-right: 30px;
 
 .team-li {
 background-color:var(--white-color);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .work-profile {
