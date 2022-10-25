@@ -300,7 +300,7 @@ margin-right: 30px;
   background-color: var(--bgc-icon);
   margin-bottom: 30px;
   outline: solid tomato;
- 
+
 }
 
 .icon-warning::before {
@@ -346,6 +346,26 @@ background-image: url(../images/warning.svg);
 .team-li {
 background-color:var(--white-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-li::after {
+  content: '';
+  display: block;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: var(--white-color);
+  margin: 16px 32px 30px;
+  outline: solid tomato;
+}
+
+.team-igor::after {
+  background-image: url(../images/Sociallinks.svg);
+}
+
+.team-another::after {
+  background-image: url(../images/Social-links-another.svg);
 }
 
 .work-profile {
