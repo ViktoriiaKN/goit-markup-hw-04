@@ -11,6 +11,7 @@
 --hero-background: #2F303A;
 --btn-background-color: #188CEB;
 --section-background: #F5F4FA;
+--bgc-icon: #F5F4FA;
 }
 
 body {
@@ -216,7 +217,7 @@ margin-bottom: 30px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -287,6 +288,35 @@ text-align: center;
 .feature-li {
 flex-basis: calc(100%  / 4 );
 margin-right: 30px;
+}
+
+.feature-li::before {
+  content: '';
+  display: block;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--bgc-icon);
+  margin-bottom: 30px;
+  outline: solid tomato;
+ 
+}
+
+.icon-warning::before {
+background-image: url(../images/warning.svg);
+}
+
+.icon-punctuality::before {
+  background-image: url(../images/PUNCTUALITY.svg);
+}
+
+.icon-planning::before {
+  background-image: url(../images/PLANNING.svg);
+}
+
+.icon-modern::before {
+  background-image: url(../images/MODERN.svg);
 }
 
 .feature-li:last-child {
