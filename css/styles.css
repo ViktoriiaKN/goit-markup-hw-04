@@ -179,7 +179,7 @@ color:var(--active-color);
 
 .item-tel-mail { 
   display: flex;
-
+  order -1;
 }
 
 .nav-ul .item-tel-mail + .item-tel-mail {
@@ -294,7 +294,7 @@ margin-right: 30px;
   content: '';
   display: block;
   height: 120px;
-  background-size: contain;
+  background-size: 70px 70px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--bgc-icon);
@@ -304,19 +304,19 @@ margin-right: 30px;
 }
 
 .icon-warning::before {
-background-image: url(../images/warning.svg);
+background-image: url(../images/antenna1.svg);
 }
 
 .icon-punctuality::before {
-  background-image: url(../images/PUNCTUALITY.svg);
+  background-image: url(../images/clock1.svg);
 }
 
 .icon-planning::before {
-  background-image: url(../images/PLANNING.svg);
+  background-image: url(../images/diagram1.svg);
 }
 
 .icon-modern::before {
-  background-image: url(../images/MODERN.svg);
+  background-image: url(../images/astronaut1.svg);
 }
 
 .feature-li:last-child {
