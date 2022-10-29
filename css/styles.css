@@ -186,6 +186,10 @@ color:var(--active-color);
   margin-left: 50px;
 }
 
+.mail-icon {
+  
+}
+
 /* ГЕРОЙ */
 
 
@@ -293,16 +297,12 @@ justify-content: center;
 align-items: center;
 width: 270px;
 background-color: var(--section-background);
+outline: 1px solid tomato;
 }
 
 .feature-li::before {
   
-  outline: 1px solid tomato;
-}
-
-.icon {
-  margin-right: 30px;
-}
+  outline: 1px solid tomato;}
 
 .icon:last-child {
   margin-right: 0;
