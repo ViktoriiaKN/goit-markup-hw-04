@@ -354,8 +354,8 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-fill: var(--icon-color);
-outline: 1px solid tomato;
+
+
 }
 
 .icon-team:hover,
@@ -370,10 +370,12 @@ outline: 1px solid tomato;
 .team-li {
 background-color:var(--white-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-icon-li {
-
+fill: var(--icon-color);
 }
 
 .team-igor::after {
