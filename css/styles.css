@@ -11,7 +11,7 @@
 --hero-background: #2F303A;
 --btn-background-color: #188CEB;
 --section-background: #F5F4FA;
---bgc-icon: #F5F4FA;
+
 }
 
 body {
@@ -287,39 +287,24 @@ text-align: center;
 
 .feature-li {
 flex-basis: calc(100%  / 4 );
-margin-right: 30px;
+gap: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 270px;
+background-color: var(--section-background);
 }
 
 .feature-li::before {
-  content: '';
-  display: block;
-  height: 120px;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--bgc-icon);
-  margin-bottom: 30px;
-  outline: solid tomato;
-
+  
+  outline: 1px solid tomato;
 }
 
-.icon-warning::before {
-background-image: url(../images/antenna1.svg);
+.icon {
+  margin-right: 30px;
 }
 
-.icon-punctuality::before {
-  background-image: url(../images/clock1.svg);
-}
-
-.icon-planning::before {
-  background-image: url(../images/diagram1.svg);
-}
-
-.icon-modern::before {
-  background-image: url(../images/astronaut1.svg);
-}
-
-.feature-li:last-child {
+.icon:last-child {
   margin-right: 0;
 }
 
