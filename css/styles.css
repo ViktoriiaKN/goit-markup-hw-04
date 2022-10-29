@@ -11,6 +11,7 @@
 --hero-background: #2F303A;
 --btn-background-color: #188CEB;
 --section-background: #F5F4FA;
+--icon-color: #AFB1B8;
 
 }
 
@@ -339,21 +340,40 @@ outline: 1px solid tomato;
   gap: 30px;
 }
 
+.icon-list-team {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon-team {
+width: 44px;
+height: 44px;
+background-color: var(--white-color);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+fill: var(--icon-color);
+outline: 1px solid tomato;
+}
+
+.icon-team:hover,
+.icon-team:focus {
+  background-color: var(--active-color);
+}
+
+.icon-team:hover .team-icon-li {
+  fill: var(--white-color);
+}
+
 .team-li {
 background-color:var(--white-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team-li::after {
-  content: '';
-  display: block;
-  height: 44px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-color: var(--white-color);
-  margin: 16px 32px 30px;
-  outline: solid tomato;
+.team-icon-li {
+
 }
 
 .team-igor::after {
