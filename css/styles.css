@@ -410,6 +410,39 @@ fill: var(--icon-color);
   
 }
 
+.section-clients {
+padding: 94px 215px;
+}
+
+.clients-ul {
+  display: flex;
+  gap: 30px;
+  
+}
+
+.icon-clients {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+justify-content: center;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.clients-icon-li {
+  fill: var(--icon-color);
+}
+
+.icon-clients:hover,
+.icon-clients:focus {
+  background-color:var(--white-color);
+}
+
+.icon-clients:hover .clients-icon-li {
+  fill: var(--active-color);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
