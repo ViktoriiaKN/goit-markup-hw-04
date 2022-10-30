@@ -12,7 +12,7 @@
 --btn-background-color: #188CEB;
 --section-background: #F5F4FA;
 --icon-color: #AFB1B8;
-
+--icon-footer-bgc:rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -577,6 +577,12 @@ margin-bottom: 0;
     padding-bottom: 60px;
 }
 
+.container-footer {
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
+}
+
 .logo-link-footer {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -657,4 +663,40 @@ display: inline-block;
 .addres-footer:hover,
 .addres-footer:focus {
   color:var(--active-color);
+}
+
+.join-us {
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--white-color);
+}
+
+.icon-footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.icon-footer {
+  width: 44px;
+height: 44px;
+background-color:var(--icon-footer-bgc);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer-icon-li {
+  fill: var(--white-color);
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+  background-color: var(--active-color);
 }
