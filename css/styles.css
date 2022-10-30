@@ -186,7 +186,7 @@ align-items: center;
 
 .item-tel-mail { 
   display: flex;
-  order -1;
+  
 }
 
 .nav-ul .item-tel-mail + .item-tel-mail {
