@@ -429,7 +429,7 @@ padding: 94px 0;
   align-items: center;
 justify-content: center;
 border: 1px solid #AFB1B8;
-background-color: transparent;
+
 border-radius: 4px;
 }
 
@@ -440,7 +440,12 @@ border-radius: 4px;
 .icon-clients:hover .clients-icon-li,
  .icon-clients:focus .clients-icon-li {
   fill:var(--active-color);
-border-color: var(--active-color);}
+}
+
+.icon-clients:hover,
+ .icon-clients:focus {
+  border-color: var(--active-color);
+ }
 
 .visually-hidden {
   position: absolute;
